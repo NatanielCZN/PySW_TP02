@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOSTRAP 5.3.0 -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- MIS ESTILOS -->
+  <link rel="stylesheet" href="/css/estilos.css">
+
+  <title>TP02 | Horoscopo</title>
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/images/Logo_TP02.png" alt="Bootstrap" width="60" height="60">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/page1.html"><i class="fa-solid fa-pen-nib"></i> Dise&ntilde;o</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pagea.html"><i class="fa-solid fa-music"></i> Musica</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pageb.html"><i class="fa-solid fa-coins"></i> Moneda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active activa" aria-current="page" href="/pagec.html"><i class="fa-solid fa-star"></i>
+              Horoscopo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO DE LA PAGINA -->
+  <div class="container">
+    <div class="row">
+      <!-- Botones -->
+      <section class="col-12 text-center mt-4">
+        <div class="row row-cols-md-3 row-cols-2">
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_aries.png" width="100px" class="mb-3" alt="Zodiaco | Aries">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>ARIES</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_tauro.png" width="100px" class="mb-3" alt="Zodiaco | Tauro">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>TAURO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_geminis.png" width="100px" class="mb-3" alt="Zodiaco | Geminis">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>G&Eacute;MINIS</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_cancer.png" width="100px" class="mb-3" alt="Zodiaco | Cancer">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>C&Aacute;NCER</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_leo.png" width="100px" class="mb-3" alt="Zodiaco | Leo">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>LEO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_virgo.png" width="100px" class="mb-3" alt="Zodiaco | Virgo">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>VIRGO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_libra.png" width="100px" class="mb-3" alt="Zodiaco | Libra">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>LIBRA</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_escorpio.png" width="100px" class="mb-3" alt="Zodiaco | Escorpio">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>ESCORPIO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_sagitario.png" width="100px" class="mb-3" alt="Zodiaco | Sagitario">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>SAGITARIO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_capricornio.png" width="100px" class="mb-3"
+                  alt="Zodiaco | Capricorinio">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>CAPRICORNIO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_acuario.png" width="100px" class="mb-3" alt="Zodiaco | Acuario">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>ACUARIO</strong></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-5">
+            <div class="row">
+              <div class="col-12">
+                <img src="/images/zodiaco/zodiaco_piscis.png" width="100px" class="mb-3" alt="Zodiaco | Piscis">
+              </div>
+
+              <div class="col-12 d-grid px-md-5 px-2">
+                <a href="#informacion_geminis"
+                  class="btn btn-warning border border-1 border-black px-0"><strong>PISCIS</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Informacion -->
+      <section class="col-12 p-0 mb-4 bg-light" id="informacion_geminis">
+        <div>
+          <h5 class="bg-primary text-white ps-4 py-3">G&eacute;minis - Dia</h5>
+
+          <div class="row px-4 py-2 m-0 mb-4">
+            <div class="col-md-9 col-12 p-0">
+              <p>Gastas la mayor parte de tu energ&iacute;a intentando cambiar a los dem&aacute;s, y no siempre te paras
+                a pensar un poco m&aacute;s en ti, es muy posible que t&uacute; tambi&eacute;n tengas que cambiar.
+                Cuando se trata de ti, G&eacute;minis no eres tan cr&iacute;tico-a. Adem&aacute;s, el entorno en el que
+                te mueves te influye mucho m&aacute;s de lo que piensas: piensa en ello.</p>
+            </div>
+
+            <div class="col-md-3 col-12 p-0 text-center">
+              <img src="/images/zodiaco/zodiaco_geminis.png" width="50%" alt="Zodiaco | Geminis">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="bg-primary text-white ps-4 py-3">G&eacute;minis - Mes</h5>
+
+          <div class="row px-4 py-2 m-0 mb-4">
+            <div class="col-md-9 col-12 p-0">
+              <p>Este mes se acentuar&aacute; la expansi&oacute;n en tus relaciones personales, lo que te conviene tener
+                en cuenta para hacer proyectos conjuntos, participar en actividades sociales, equipos o
+                cooperaci&oacute;n. Tiempo decisivo para seleccionar lo que haces en estos &aacute;mbitos y los
+                colectivos o personas que frecuentas, porque ahora pueden tener especial influencia, y viceversa. Los
+                viajes y asuntos culturales podr&iacute;an actuar como catalizadores de esta positiva corriente. Tiempo
+                de ampliar horizontes y mirar a lo lejos, proyectando hacia dónde te gustaría crecer.</p>
+            </div>
+
+            <div class="col-md-3 col-12 p-0 text-center">
+              <img src="/images/zodiaco/zodiaco_geminis.png" width="50%" alt="Zodiaco | Geminis">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+  <footer class="bg-black text-center py-4">
+    <div class="container">
+      <div class="text-white">
+        © 2023 Copyright:
+        <a class="text-white" href="#!">NATANIELCAZON</a>
+        | TP02
+      </div>
+
+      <!-- Redes Sociales -->
+      <section class="my-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- SCRIPTS ICONOS FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/427aab208b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

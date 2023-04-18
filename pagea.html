@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOSTRAP 5.3.0 -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- MIS ESTILOS -->
+  <link rel="stylesheet" href="/css/estilos.css">
+
+  <title>TP02 | Musica</title>
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/images/Logo_TP02.png" alt="Bootstrap" width="60" height="60">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/page1.html"><i class="fa-solid fa-pen-nib"></i> Dise&ntilde;o</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active activa" aria-current="page" href="/pagea.html"><i class="fa-solid fa-music"></i>
+              Musica</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pageb.html"><i class="fa-solid fa-coins"></i> Moneda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pagec.html"><i class="fa-solid fa-star"></i> Horoscopo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO DE LA PAGINA -->
+  <div class="container">
+    <div class="row">
+      <!-- Canciones -->
+      <section class="col-lg-8 col-12 mb-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-0 p-0">
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_acdc.png" class="card-img-top" alt="Album | AC/DC">
+              <div class="card-body">
+                <h5 class="card-title">Let There Be Rock</h5>
+                <p class="card-text">AC/DC</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 1997</li>
+                <li class="list-group-item">G&eacute;neros: Hard rock, Rock cl&aacute;sico</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=O24AipZ-buQ&list=RDn_GFN3a0yj0&index=17"
+                  class="card-link link-musica" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_queen.png" class="card-img-top" alt="Album | Queen">
+              <div class="card-body">
+                <h5 class="card-title">Under Pressure</h5>
+                <p class="card-text">Queen</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 1981</li>
+                <li class="list-group-item">G&eacute;neros: Rock, Alternativa/independiente, Pop</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=a01QQZyl-_I" class="card-link link-musica" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_ratablanca.png" class="card-img-top" alt="Album | Rata Blanca">
+              <div class="card-body">
+                <h5 class="card-title">El Sue&ntilde;o de la Gitana</h5>
+                <p class="card-text">Rata Blanca</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 1998</li>
+                <li class="list-group-item">G&eacute;neros: Heavy metal, Rock, Rock Argentino</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=rCvDQxxW5UI" class="card-link link-musica" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_sodastereo.png" class="card-img-top" alt="Album | Soda Stereo">
+              <div class="card-body">
+                <h5 class="card-title">Profugos</h5>
+                <p class="card-text">Soda Stereo</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 1986</li>
+                <li class="list-group-item">G&eacute;neros: Pop, Rock, Rock Argentino</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=eguctGjUNLI" class="card-link link-musica" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_suisei.png" class="card-img-top" alt="Album | Hoshimachi Suisei">
+              <div class="card-body">
+                <h5 class="card-title">Burning de Junjo (wii-wii-woo)</h5>
+                <p class="card-text">Hoshimachi Suisei</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 2022</li>
+                <li class="list-group-item">G&eacute;neros: J-Pop, Rock</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=r1ZVPTCOCSQ" class="card-link link-musica" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bg-light">
+              <img src="/images/albums/album_theramones.png" class="card-img-top" alt="Album | Ramones">
+              <div class="card-body">
+                <h5 class="card-title">Bonzo Goes To Bitburg</h5>
+                <p class="card-text">Ramones</p>
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lanzamiento: 1986</li>
+                <li class="list-group-item">G&eacute;neros: Rock</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=Su0Hvt6hTmA" class="card-link link-musica" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> Escuchar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Publicidad -->
+      <aside class="col-lg-4 col-12 m-0 py-4">
+        <div class="row">
+          <div class="col-12">
+            <a href="https://www.youtube.com/watch?v=d-3Z3y0mI6s" target="_blank" rel="noopener noreferrer"><img
+                class="img-fluid" src="/images/publicidad_campeones.jpg" alt="Publicidad | Campenes 2022"></a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+  <footer class="bg-black text-center py-4">
+    <div class="container">
+      <div class="text-white">
+        © 2023 Copyright:
+        <a class="text-white" href="#!">NATANIELCAZON</a>
+        | TP02
+      </div>
+
+      <!-- Redes Sociales -->
+      <section class="my-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- SCRIPTS ICONOS FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/427aab208b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

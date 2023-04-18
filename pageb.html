@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOSTRAP 5.3.0 -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- MIS ESTILOS -->
+  <link rel="stylesheet" href="/css/estilos.css">
+
+  <title>TP02 | Moneda</title>
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/images/Logo_TP02.png" alt="Bootstrap" width="60" height="60">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/page1.html"><i class="fa-solid fa-pen-nib"></i> Dise&ntilde;o</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pagea.html"><i class="fa-solid fa-music"></i> Musica</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active activa" aria-current="page" href="/pageb.html"><i class="fa-solid fa-coins"></i>
+              Moneda</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pagec.html"><i class="fa-solid fa-star"></i> Horoscopo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO DE LA PAGINA -->
+  <div class="container">
+    <div class="row">
+      <!-- Tabla de monedas -->
+      <section class="col-md-8 d-none d-md-block pb-5">
+        <div class="col-12 text-center bg-primary text-white my-4 py-3">
+          <h5 class="m-0">CONVERSOR DE DIVISAS</h5>
+        </div>
+
+        <table class="table table-responsive table-hover text-center">
+          <thead>
+            <th></th>
+
+            <th><img src="/images/banderas/USA.png" width="40px" alt="Bandera | Estados Unidos"><br />USA</th>
+
+            <th><img src="/images/banderas/JPN.png" width="40px" alt="Bandera | Japon"><br />JPN</th>
+
+            <th><img src="/images/banderas/CHN.png" width="40px" alt="Bandera | China"><br />CHY</th>
+
+            <th><img src="/images/banderas/ARG.png" width="40px" alt="Bandera | Argentina"><br />ARG</th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="row m-0">
+                <div class="d-none d-lg-block col-lg-6 text-lg-end my-auto">
+                  <img src="/images/banderas/USA.png" width="40px" alt="Bandera | Estados Unidos">
+                </div>
+
+                <div class="col-lg-6 col-12 text-lg-start text-center">
+                  <strong>1 USD</strong><br />Inverse
+                </div>
+              </td>
+
+              <td>1.000000<br />1.000000</td>
+
+              <td class="text-primary">108.9079<br />0.009182</td>
+
+              <td class="text-primary">7.057569<br />0.141692</td>
+
+              <td class="text-primary">0.013226<br />64.87725</td>
+            </tr>
+
+            <tr>
+              <td class="row m-0">
+                <div class="d-none d-lg-block col-lg-6 text-lg-end my-auto">
+                  <img src="/images/banderas/UE.png" width="40px" alt="Bandera | Union Europea">
+                </div>
+
+                <div class="col-lg-6 col-12 text-lg-start text-center">
+                  <strong>1 EUR</strong><br />Inverse
+                </div>
+              </td>
+
+              <td class="text-primary">1.087074<br />0.919901</td>
+
+              <td class="text-primary">118.3910<br />0.008447</td>
+
+              <td class="text-primary">7.672100<br />0.141692</td>
+
+              <td class="text-primary">70.52637<br />0.014179</td>
+            </tr>
+
+            <tr>
+              <td class="row m-0">
+                <div class="d-none d-lg-block col-lg-6 text-lg-end my-auto">
+                  <img src="/images/banderas/UK.png" width="40px" alt="Bandera | Reino Unido">
+                </div>
+
+                <div class="col-lg-6 col-12 text-lg-start text-center">
+                  <strong>1 GBP</strong><br />Inverse
+                </div>
+              </td>
+
+              <td class="text-primary">0.013226<br />75.61134</td>
+
+              <td class="text-primary">134.2108<br />0.007451</td>
+
+              <td class="text-primary">8.697272<br />0.114979</td>
+
+              <td class="text-primary">79.95034<br />0.012508</td>
+            </tr>
+
+            <tr>
+              <td class="row m-0">
+                <div class="d-none d-lg-block col-lg-6 text-lg-end my-auto">
+                  <img src="/images/banderas/RUS.png" width="40px" alt="Bandera | Rusia">
+                </div>
+
+                <div class="col-lg-6 col-12 text-lg-start text-center">
+                  <strong>1 RUB</strong><br />Inverse
+                </div>
+              </td>
+
+              <td class="text-primary">0.013226<br />75.61134</td>
+
+              <td class="text-primary">1.440365<br />0.694268</td>
+
+              <td class="text-primary">0.093340<br />10.71351</td>
+
+              <td class="text-primary">0.858036<br />1.165452</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Formulario -->
+      <aside class="col-md-4 col-12 mb-md-4">
+        <div class="row">
+          <div class="col-12 text-center bg-primary text-white my-4 p-0 py-3">
+            <h5 class="m-0">CONVERSOR DE DIVISAS</h5>
+          </div>
+
+          <div class="col-12 bg-secondary text-white py-3">
+            <form action="/pageb.html" method="GET">
+              <fieldset>
+                <div class="mb-3 px-3">
+                  <label for="cantidad" class="form-label">Cantidad</label>
+
+                  <input type="text" class="form-control" id="cantidad" name="cantidad" placeholder="Ingrese Monto" />
+                </div>
+
+                <div class="mb-3 px-3">
+                  <label for="de_moneda" class="form-label">De</label>
+
+                  <select class="form-select" name="de_moneda" id="de_moneda">
+                    <option value="usd" selected>USD D&oacute;lares EEUU</option>
+
+                    <option value="eur">EUR Euros</option>
+
+                    <option value="gbp">GBP Libras esterlinas</option>
+
+                    <option value="rub">RUB Rublos</option>
+                  </select>
+                </div>
+
+                <div class="mb-3 px-3">
+                  <label for="a_moneda" class="form-label">A</label>
+
+                  <select class="form-select" name="a_moneda" id="a_moneda">
+                    <option value="usd">USD D&oacute;lares EEUU</option>
+
+                    <option value="jpy">JPY Yenes</option>
+
+                    <option value="cny">CNY Yuanes</option>
+
+                    <option value="ars" selected>ARS Pesos Argentinos</option>
+                  </select>
+                </div>
+
+                <div class="mb-3 px-3">
+                  <label for="conversion" class="form-label">Conversion</label>
+
+                  <input type="text" class="form-control" id="conversion" name="conversion" disabled />
+                </div>
+
+                <div class="m-3 d-grid">
+                  <button type="submit" class="btn btn-warning mt-2"><strong>Convertir <i
+                        class="fa-solid fa-cash-register"></i></strong></button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+  <footer class="bg-black text-center py-4">
+    <div class="container">
+      <div class="text-white">
+        © 2023 Copyright:
+        <a class="text-white" href="#!">NATANIELCAZON</a>
+        | TP02
+      </div>
+
+      <!-- Redes Sociales -->
+      <section class="my-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-redondeado m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- SCRIPTS ICONOS FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/427aab208b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

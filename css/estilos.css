@@ -1,0 +1,96 @@
+
+/**
+  Modificaciones para la etiqueta nav
+*/
+.activa {
+    font-weight: bold;
+}
+
+/**
+    Modificaciones para el cambio de colores de acuerdo al tamaño de pantalla
+    -------------------------------
+*/
+.bg-violeta {
+    background-color: blueviolet;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-md-gris {
+        background-color: grey;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-sm-amarillo {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bg-xs-celeste {
+        background-color: aqua;
+    }
+}
+/**
+    -------------------------------
+*/
+
+/**
+    Modificaciones a un estilo de boton
+*/
+.btn-redondeado {
+    border-radius: 100%;
+}
+
+/**
+    Modificaciones de iconos en hipervinculos
+    -------------------------------
+*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/**
+    Modificando hipervinculos de la pagina pagea
+    -------------------------------
+*/
+.link-musica {
+    color: black;
+}
+
+.link-musica i {
+    color: red;
+}
+
+.link-musica:hover {
+    font-weight: bold;
+    color: red;
+}
+/**
+    -------------------------------
+*/
+
+/**
+    Modificacion de la posicion del footer
+    -------------------------------
+*/
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Direccion */
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+/**
+    -------------------------------
+*/
